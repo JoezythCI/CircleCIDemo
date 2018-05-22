@@ -15,8 +15,8 @@ jobs:
 
       # Update bundler
       - run:
-        name: Update bundler
-        command: bundle install
+          name: Update bundler
+          command: bundle install
 
       # Install CocoaPods
       - run:
