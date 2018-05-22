@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='CircleCIDemoTests.xctest' tests='2' failures='0'>
+  <testsuite name='CircleCIDemoTests.CircleCIDemoTests' tests='2' failures='0'>
+    <testcase classname='CircleCIDemoTests.CircleCIDemoTests' name='testExample' time='0.001'/>
+    <testcase classname='CircleCIDemoTests.CircleCIDemoTests' name='testPerformanceExample' time='0.398'/>
+  </testsuite>
+</testsuites>
