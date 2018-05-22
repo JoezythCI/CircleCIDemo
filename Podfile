@@ -9,7 +9,7 @@ target 'CircleCIDemo' do
 
   target 'CircleCIDemoTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod "Alamofire"
   end
 
 end
