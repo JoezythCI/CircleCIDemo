@@ -9,13 +9,15 @@ jobs:
     # Specify the Xcode version to use
     macos:
       xcode: "9.2.0"
-
-    machine:
-      pre:
-        - brew install ruby ; brew link --overwrite ruby
+    shell: /bin/bash --login -eo pipefail
 
     steps:
       - checkout
+
+      # Set Ruby version
+      - run:
+          name: Set Ruby version
+          command:  echo "ruby-2.4" > ~/.ruby-version
 
       # Update bundler
       - run:
