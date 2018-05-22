@@ -10,6 +10,10 @@ jobs:
     macos:
       xcode: "9.2.0"
 
+    machine:
+      pre:
+        - brew install ruby ; brew link --overwrite ruby
+
     steps:
       - checkout
 
